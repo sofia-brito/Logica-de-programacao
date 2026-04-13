@@ -1,0 +1,2 @@
+# Logica-de-programacao
+Meus primeiros passos na programação: exercícios e desafios da disciplina de LPA.
