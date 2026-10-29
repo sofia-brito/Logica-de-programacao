@@ -1,0 +1,25 @@
+package ExercíciosListaCondicional;
+
+import java.util.Scanner;
+
+public class Exercício6 {
+
+	public static void main(String[] args) {
+		double compra, desconto, valorTotal;
+		
+		Scanner ler = new Scanner(System.in);
+		System.out.println("Digite o valor da compra: ");
+		compra = ler.nextDouble();
+		
+		if(compra > 500) {
+			desconto = compra * 0.1;
+			valorTotal = compra - desconto;
+			System.out.println("Valor total a ser pago com 10% de desconto: " + valorTotal);
+		}else {
+			valorTotal = compra;
+			System.out.println("Valor total a ser pago: " + valorTotal);
+		}
+
+	}
+
+}
