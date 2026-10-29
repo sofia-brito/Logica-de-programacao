@@ -1,0 +1,20 @@
+package Exercícios;
+
+import java.util.Scanner;
+
+public class ExercícioTemperatura {
+
+	public static void main(String[] args) {
+		int temperatura, Fahrenheit;
+		
+		Scanner ler = new Scanner(System.in);
+		System.out.println("Digite a temperatura: ");
+		temperatura = ler.nextInt();
+		
+		Fahrenheit = ((9 * temperatura)+ 160)/5;
+		
+		System.out.println("A temperatura em Fahrenheit é:" + Fahrenheit);
+
+	}
+
+}
