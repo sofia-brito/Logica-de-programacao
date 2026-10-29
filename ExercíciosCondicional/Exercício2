@@ -2,7 +2,7 @@ package ExercíciosListaCondicional;
 
 import java.util.Scanner;
 
-public class Exercício6 {
+public class Exercício2 {
 
 	public static void main(String[] args) {
 		double compra, desconto, valorTotal;
