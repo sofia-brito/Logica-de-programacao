@@ -1,0 +1,22 @@
+package Exercícios;
+
+import java.util.Scanner;
+
+public class ExercícioLocadora {
+
+	public static void main(String[] args) {
+		int fitas;
+		double valor;
+
+		Scanner ler = new Scanner(System.in);
+		System.out.println("Escreva a quantidade de fitas que a locadora possui: ");
+		fitas = ler.nextInt();
+		System.out.println("Escreva o valor cobrado por cada aluguel: ");
+		valor = ler.nextDouble();
+
+		System.out.println("Faturamento anual: " + (valor * fitas * 12) / 1 / 3);
+
+		System.out.println("Valor da multa: " + valor * 0.1);
+	}
+
+}
